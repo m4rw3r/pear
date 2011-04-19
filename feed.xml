@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://injectframework.github.org/pear">
+    <title>InjectFramework PEAR channel Latest Releases</title>
+    <link href="http://injectframework.github.org/pear" />
+    <author>
+        <name>http://injectframework.github.org/pear</name>
+    </author>
+
+
+</feed>

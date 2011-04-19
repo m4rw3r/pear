@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+  <name>injectframework.github.org/pear/</name>
+  <summary>InjectFramework PEAR channel</summary>
+  <alias>pirum</alias>
+  <url>http://injectframework.github.org/pear</url>
+</server>
