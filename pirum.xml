@@ -2,6 +2,6 @@
 <server>
   <name>injectframework.github.org/pear/</name>
   <summary>InjectFramework PEAR channel</summary>
-  <alias>pirum</alias>
+  <alias>injectfw</alias>
   <url>http://injectframework.github.org/pear</url>
 </server>
