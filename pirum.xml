@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <server>
-  <name>injectframework.github.org/pear/</name>
+  <name>injectframework.github.com/pear/</name>
   <summary>InjectFramework PEAR channel</summary>
   <alias>injectfw</alias>
-  <url>http://injectframework.github.org/pear</url>
+  <url>http://injectframework.github.com/pear</url>
 </server>
