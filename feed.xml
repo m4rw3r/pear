@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="http://injectframework.github.com/pear">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://injectframework.github.com/pear</id>
+    <updated>2011-10-23T23:48:28+02:00</updated>
     <title>InjectFramework PEAR channel Latest Releases</title>
-    <link href="http://injectframework.github.com/pear" />
+    <link href="http://injectframework.github.com/pear/feed.xml" rel="self" />
     <author>
         <name>http://injectframework.github.com/pear</name>
     </author>
@@ -9,27 +11,40 @@
     <entry>
         <title>InjectStack 0.1.0 (beta)</title>
         <link href="http://injectframework.github.com/pear/get/InjectStack-0.1.0.tgz" />
-        <id>InjectStack-0.1.0</id>
+        <id>http://injectframework.github.com/pear/get/InjectStack-0.1.0.tgz</id>
         <author>
             <name>m4rw3r</name>
         </author>
         <updated>2011-04-19T19:43:46+02:00</updated>
         <content>
             
-    Description goes here
+    No notes.
   
+        </content>
+    </entry>    <entry>
+        <title>Inject_ClassTools 0.2.0 (stable)</title>
+        <link href="http://injectframework.github.com/pear/get/Inject_ClassTools-0.2.0.tgz" />
+        <id>http://injectframework.github.com/pear/get/Inject_ClassTools-0.2.0.tgz</id>
+        <author>
+            <name>m4rw3r</name>
+        </author>
+        <updated>2011-10-23T23:47:57+02:00</updated>
+        <content>
+            
+		No notes.
+	
         </content>
     </entry>    <entry>
         <title>Inject_ClassTools 0.1.0 (beta)</title>
         <link href="http://injectframework.github.com/pear/get/Inject_ClassTools-0.1.0.tgz" />
-        <id>Inject_ClassTools-0.1.0</id>
+        <id>http://injectframework.github.com/pear/get/Inject_ClassTools-0.1.0.tgz</id>
         <author>
             <name>m4rw3r</name>
         </author>
         <updated>2011-04-22T17:32:01+02:00</updated>
         <content>
             
-    Contains Autoloader, ClassFinder and PreloadFileCompiler
+    No notes.
   
         </content>
     </entry>

@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>InjectFramework PEAR channel</title>
-    <link rel="stylesheet" type="text/css" href="http://injectframework.github.com/pear/pirum.css" />
+    <link rel="stylesheet" type="text/css" href="pirum.css" />
     <link rel="alternate" type="application/rss+xml" href="http://injectframework.github.com/pear/feed.xml" title="InjectFramework PEAR channel Latest Releases" />
 </head>
 <body>
@@ -13,8 +13,6 @@
         </div>
         <div id="bd">
             <div class="yui-g">
-                <h2>Using this Channel</h2>
-                <p>This channel is to be used with the PEAR installer.</p>
                 <em>Registering</em> the channel:
                 <pre><code>pear channel-discover injectframework.github.com/pear</code></pre>
                 <em>Listing</em> available packages:
@@ -27,38 +25,34 @@ pear install injectfw/package_name-beta</code></pre>
                 <em>Receiving</em> updates via a <a href="http://injectframework.github.com/pear/feed.xml">feed</a>:
                 <pre><code>http://injectframework.github.com/pear/feed.xml</code></pre>
 
-                <h2>Packages</h2>
-
                                     <h3>InjectStack<small> - A Rack port for PHP, making it easy to construct web applications based on a layered architecture.</small></h3>
                     <p>
     Description goes here
   </p>
-                    <ul>
-                        <li><strong>Package name</strong>: InjectStack</li>
-                        <li><strong>License</strong>: All rights reserved.</li>
-                                                <li><strong>Maintainers</strong>: Martin Wernståhl (as lead)</li>
-                                                <li><strong>Releases</strong>: <a href="http://injectframework.github.com/pear/get/InjectStack-0.1.0.tgz">0.1.0</a> (beta)</li>
-                        <li><strong>Install command</strong>: pear install injectfw/InjectStack</li>
-                    </ul>
-
-                    <hr />
+                    <table>
+                        <tr><th>Install command</th><td><strong>pear install injectfw/InjectStack</strong></td></tr>
+                                                <tr><th>License</th><td>All rights reserved.</td></tr>
+                                                    <tr><th>Dependencies</th><td>
+                                                                    pear.gradwell.com/Autoloader                                                            </td></tr>
+                                                                        <tr><th>Maintainers</th><td>Martin Wernståhl <small>(as lead)</small></td></tr>
+                                                <tr><th>Releases</th><td><a href="http://injectframework.github.com/pear/get/InjectStack-0.1.0.tgz">0.1.0</a> <small>(beta)</small></td></tr>
+                    </table>
                                     <h3>Inject_ClassTools<small> - Tools related to working with PHP classes</small></h3>
                     <p>
-    Contains Autoloader, ClassFinder and PreloadFileCompiler
-  </p>
-                    <ul>
-                        <li><strong>Package name</strong>: Inject_ClassTools</li>
-                        <li><strong>License</strong>: All rights reserved.</li>
-                                                <li><strong>Maintainers</strong>: Martin Wernståhl (as lead)</li>
-                                                <li><strong>Releases</strong>: <a href="http://injectframework.github.com/pear/get/Inject_ClassTools-0.1.0.tgz">0.1.0</a> (beta)</li>
-                        <li><strong>Install command</strong>: pear install injectfw/Inject_ClassTools</li>
-                    </ul>
-
-                    <hr />
+		Contains Autoloader, ClassFinder and PreloadFileCompiler
+	</p>
+                    <table>
+                        <tr><th>Install command</th><td><strong>pear install injectfw/Inject_ClassTools</strong></td></tr>
+                                                <tr><th>License</th><td>All rights reserved.</td></tr>
+                                                    <tr><th>Dependencies</th><td>
+                                                                    pear.phix-project.org/Autoloader                                                            </td></tr>
+                                                                        <tr><th>Maintainers</th><td>Martin Wernståhl <small>(as lead)</small></td></tr>
+                                                <tr><th>Releases</th><td><a href="http://injectframework.github.com/pear/get/Inject_ClassTools-0.2.0.tgz">0.2.0</a> <small>(stable)</small>, <a href="http://injectframework.github.com/pear/get/Inject_ClassTools-0.1.0.tgz">0.1.0</a> <small>(beta)</small></td></tr>
+                    </table>
                             </div>
         </div>
         <div id="ft">
-            <p><small>The <em>injectframework.github.com/pear</em> PEAR Channel Server is proudly powered by <a href="http://www.pirum-project.org/">Pirum</a> 1.0.1</small></p>
+            <p><small>The <em>injectframework.github.com/pear</em> PEAR Channel Server is proudly powered by <a href="http://pirum.sensiolabs.org/">Pirum</a> 1.0.4</small></p>
         </div>
     </div>
 </body>

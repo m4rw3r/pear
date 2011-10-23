@@ -6,7 +6,7 @@
 <l>All rights reserved.</l>
 <s>Tools related to working with PHP classes</s>
 <d>
-    Contains Autoloader, ClassFinder and PreloadFileCompiler
-  </d>
+		Contains Autoloader, ClassFinder and PreloadFileCompiler
+	</d>
 <r xlink:href="/rest/r/inject_classtools" />
 </p>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.9.1" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0   http://pear.php.net/dtd/tasks-1.0.xsd   http://pear.php.net/dtd/package-2.0   http://pear.php.net/dtd/package-2.0.xsd">
+	<name>Inject_ClassTools</name>
+	<channel>injectframework.github.com/pear</channel>
+	<summary>Tools related to working with PHP classes</summary>
+	<description>
+		Contains Autoloader, ClassFinder and PreloadFileCompiler
+	</description>
+	<lead>
+		<name>Martin Wernståhl</name>
+		<user>m4rw3r</user>
+		<email>m4rw3r@gmail.com</email>
+		<active>yes</active>
+	</lead>
+	<date>2011-10-23</date>
+	<time>23:47:57</time>
+	<version>
+	<release>0.2.0</release>
+		<api>0.2</api>
+	</version>
+	<stability>
+		<release>stable</release>
+		<api>beta</api>
+	</stability>
+	<license>All rights reserved.</license>
+	<notes>
+		No notes.
+	</notes>
+	<contents>
+		<dir baseinstalldir="/" name="/">
+      <file baseinstalldir="/" md5sum="a07bc0804be994f593687a7d360b67dd" name="/Inject/ClassTools/Autoloader/Generic.php" role="php">        <tasks:replace from="@@PACKAGE_VERSION@@" to="version" type="package-info" />
+        <tasks:replace from="@@PHP_DIR@@" to="php_dir" type="pear-config" />
+        <tasks:replace from="@@DATA_DIR@@" to="data_dir" type="pear-config" />
+      </file>
+      <file baseinstalldir="/" md5sum="7bfb1e0f1520a10153c6e1ac712abc96" name="/Inject/ClassTools/ClassConflictException.php" role="php">        <tasks:replace from="@@PACKAGE_VERSION@@" to="version" type="package-info" />
+        <tasks:replace from="@@PHP_DIR@@" to="php_dir" type="pear-config" />
+        <tasks:replace from="@@DATA_DIR@@" to="data_dir" type="pear-config" />
+      </file>
+      <file baseinstalldir="/" md5sum="2e20886dc31ba80f090091f8af2f06e1" name="/Inject/ClassTools/ClassFinder.php" role="php">        <tasks:replace from="@@PACKAGE_VERSION@@" to="version" type="package-info" />
+        <tasks:replace from="@@PHP_DIR@@" to="php_dir" type="pear-config" />
+        <tasks:replace from="@@DATA_DIR@@" to="data_dir" type="pear-config" />
+      </file>
+      <file baseinstalldir="/" md5sum="05a9b6b0c1fb03782dacfa1a7c6a775f" name="/Inject/ClassTools/PhixCommands/AutoloaderGenerateMapCommand.php" role="php">        <tasks:replace from="@@PACKAGE_VERSION@@" to="version" type="package-info" />
+        <tasks:replace from="@@PHP_DIR@@" to="php_dir" type="pear-config" />
+        <tasks:replace from="@@DATA_DIR@@" to="data_dir" type="pear-config" />
+      </file>
+      <file baseinstalldir="/" md5sum="79cb289bfe6d06bf2ae20daab14cbc53" name="/Inject/ClassTools/PreloadFileCompiler.php" role="php">        <tasks:replace from="@@PACKAGE_VERSION@@" to="version" type="package-info" />
+        <tasks:replace from="@@PHP_DIR@@" to="php_dir" type="pear-config" />
+        <tasks:replace from="@@DATA_DIR@@" to="data_dir" type="pear-config" />
+      </file>
+      <file baseinstalldir="/" md5sum="2dac14c33496a76a820668fb4b7842e2" name="/Inject/ClassTools/Autoloader/ExampleClasses/DeepNamespace/Root.php" role="test">        <tasks:replace from="@@PACKAGE_VERSION@@" to="version" type="package-info" />
+        <tasks:replace from="@@PHP_DIR@@" to="php_dir" type="pear-config" />
+        <tasks:replace from="@@DATA_DIR@@" to="data_dir" type="pear-config" />
+      </file>
+      <file baseinstalldir="/" md5sum="1ddcc4da03672d0eaa037f457f69a89b" name="/Inject/ClassTools/Autoloader/ExampleClasses/Ns/Namespaced/Deep.php" role="test">        <tasks:replace from="@@PACKAGE_VERSION@@" to="version" type="package-info" />
+        <tasks:replace from="@@PHP_DIR@@" to="php_dir" type="pear-config" />
+        <tasks:replace from="@@DATA_DIR@@" to="data_dir" type="pear-config" />
+      </file>
+      <file baseinstalldir="/" md5sum="a99b8d8e5dbc4455f348f75ddd07b7a2" name="/Inject/ClassTools/Autoloader/ExampleClasses/Ns/Namespaced.php" role="test">        <tasks:replace from="@@PACKAGE_VERSION@@" to="version" type="package-info" />
+        <tasks:replace from="@@PHP_DIR@@" to="php_dir" type="pear-config" />
+        <tasks:replace from="@@DATA_DIR@@" to="data_dir" type="pear-config" />
+      </file>
+      <file baseinstalldir="/" md5sum="2fdf570abb456067479f1c3cd74eb1b2" name="/Inject/ClassTools/Autoloader/ExampleClasses/PEAR/Root.php" role="test">        <tasks:replace from="@@PACKAGE_VERSION@@" to="version" type="package-info" />
+        <tasks:replace from="@@PHP_DIR@@" to="php_dir" type="pear-config" />
+        <tasks:replace from="@@DATA_DIR@@" to="data_dir" type="pear-config" />
+      </file>
+      <file baseinstalldir="/" md5sum="70ac98d9d71ed7c1d25958d9c1044141" name="/Inject/ClassTools/Autoloader/ExampleClasses/PEARNs/Nested/Class.php" role="test">        <tasks:replace from="@@PACKAGE_VERSION@@" to="version" type="package-info" />
+        <tasks:replace from="@@PHP_DIR@@" to="php_dir" type="pear-config" />
+        <tasks:replace from="@@DATA_DIR@@" to="data_dir" type="pear-config" />
+      </file>
+      <file baseinstalldir="/" md5sum="ebb19501a13350518be8ef5500e1f87b" name="/Inject/ClassTools/Autoloader/ExampleClasses/PEARNs/Root.php" role="test">        <tasks:replace from="@@PACKAGE_VERSION@@" to="version" type="package-info" />
+        <tasks:replace from="@@PHP_DIR@@" to="php_dir" type="pear-config" />
+        <tasks:replace from="@@DATA_DIR@@" to="data_dir" type="pear-config" />
+      </file>
+      <file baseinstalldir="/" md5sum="37a7efec5882bffb00e83ffb2cdbf3b8" name="/Inject/ClassTools/Autoloader/ExampleClasses/Root.php" role="test">        <tasks:replace from="@@PACKAGE_VERSION@@" to="version" type="package-info" />
+        <tasks:replace from="@@PHP_DIR@@" to="php_dir" type="pear-config" />
+        <tasks:replace from="@@DATA_DIR@@" to="data_dir" type="pear-config" />
+      </file>
+      <file baseinstalldir="/" md5sum="8f752799eac5528e0bc71a5ad9a3fd14" name="/Inject/ClassTools/Autoloader/ExampleClasses/SomeStrangeNamespace/Dir/Next.php" role="test">        <tasks:replace from="@@PACKAGE_VERSION@@" to="version" type="package-info" />
+        <tasks:replace from="@@PHP_DIR@@" to="php_dir" type="pear-config" />
+        <tasks:replace from="@@DATA_DIR@@" to="data_dir" type="pear-config" />
+      </file>
+      <file baseinstalldir="/" md5sum="c2a9d2e0ad5a26f318d523f1a0f27aaa" name="/Inject/ClassTools/Autoloader/ExampleClasses/SomeStrangeNamespace/Root.php" role="test">        <tasks:replace from="@@PACKAGE_VERSION@@" to="version" type="package-info" />
+        <tasks:replace from="@@PHP_DIR@@" to="php_dir" type="pear-config" />
+        <tasks:replace from="@@DATA_DIR@@" to="data_dir" type="pear-config" />
+      </file>
+      <file baseinstalldir="/" md5sum="15f10dfb09967cfdebe648614a09b23a" name="/Inject/ClassTools/Autoloader/ExampleClasses/Strange/NotNsed.php" role="test">        <tasks:replace from="@@PACKAGE_VERSION@@" to="version" type="package-info" />
+        <tasks:replace from="@@PHP_DIR@@" to="php_dir" type="pear-config" />
+        <tasks:replace from="@@DATA_DIR@@" to="data_dir" type="pear-config" />
+      </file>
+      <file baseinstalldir="/" md5sum="91766293f377f1cedf2a8b61b9dabc94" name="/Inject/ClassTools/Autoloader/ExampleClasses/Under_Scored_Ns/File.php" role="test">        <tasks:replace from="@@PACKAGE_VERSION@@" to="version" type="package-info" />
+        <tasks:replace from="@@PHP_DIR@@" to="php_dir" type="pear-config" />
+        <tasks:replace from="@@DATA_DIR@@" to="data_dir" type="pear-config" />
+      </file>
+      <file baseinstalldir="/" md5sum="2d871c659c9742331e05d92326898fce" name="/Inject/ClassTools/Autoloader/GenericTest.php" role="test">        <tasks:replace from="@@PACKAGE_VERSION@@" to="version" type="package-info" />
+        <tasks:replace from="@@PHP_DIR@@" to="php_dir" type="pear-config" />
+        <tasks:replace from="@@DATA_DIR@@" to="data_dir" type="pear-config" />
+      </file>
+      <file baseinstalldir="/" md5sum="41470e5d048864096834ba70644ce3ec" name="LICENSE.txt" role="doc">        <tasks:replace from="@@PACKAGE_VERSION@@" to="version" type="package-info" />
+        <tasks:replace from="@@PHP_DIR@@" to="php_dir" type="pear-config" />
+        <tasks:replace from="@@DATA_DIR@@" to="data_dir" type="pear-config" />
+      </file>
+      <file baseinstalldir="/" md5sum="d41d8cd98f00b204e9800998ecf8427e" name="README.md" role="doc">        <tasks:replace from="@@PACKAGE_VERSION@@" to="version" type="package-info" />
+        <tasks:replace from="@@PHP_DIR@@" to="php_dir" type="pear-config" />
+        <tasks:replace from="@@DATA_DIR@@" to="data_dir" type="pear-config" />
+      </file>
+
+		</dir>
+	</contents>
+	<dependencies>
+		<required>
+			<php>
+				<min>5.3.0</min>
+			</php>
+			<pearinstaller>
+				<min>1.6.0</min>
+			</pearinstaller>
+			<package>
+				<name>Autoloader</name>
+				<channel>pear.phix-project.org</channel>
+				<min>3.0.0</min>
+				<max>4.999.9999</max>
+			</package>
+		</required>
+	</dependencies>
+	<phprelease/>
+	<changelog>
+		<release>
+			<version>
+				<release>0.2.0</release>
+				<api>0.2</api>
+			</version>
+			<stability>
+				<release>beta</release>
+				<api>Beta</api>
+			</stability>
+			<date>2011-04-22</date>
+			<license>All rights reserved</license>
+			<notes>
+				* Added classmap autoloader creator
+				* General improvements
+			</notes>
+		</release>
+		<release>
+			<version>
+				<release>0.1.0</release>
+				<api>0.1</api>
+			</version>
+			<stability>
+				<release>beta</release>
+				<api>Beta</api>
+			</stability>
+			<date>2011-04-22</date>
+			<license>All rights reserved</license>
+			<notes>
+				Initial Release
+			</notes>
+		</release>
+	</changelog>
+</package>
+<!-- vim: set tabstop=2 shiftwidth=2 expandtab: -->
